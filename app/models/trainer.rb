@@ -5,4 +5,5 @@ class Trainer < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
    has_many :pokemon
+
 end
